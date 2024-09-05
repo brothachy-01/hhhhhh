@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script src="https://kit.fontawesome.com/28042939d8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+           
+          </ul>
+          
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            HI, I'm <span>Kevin</span> <br />
+            Jen From Australia
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!---------------------------------------about---------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm a passionate UI/UX Designer with a background in graphic
+              design and visual communication. I have a keen eye for detail and
+              an unquenchable thirst for innovative solutions. My goal is to
+              create visually appealing and user-friendly interfaces that not
+              only enhance user experience but also enhance brand perception.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+              <ul>
+                  <li><span>UI/UX</span><br />WEB development</li>
+                  <li><span>Frontend Development</span><br />HTML, CSS, JavaScript</li>
+                  <li><span>Graphic Design</span><br />Visual communication</li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+              <ul>
+                  <li><span>2021-current </span><br />WEB development</li>
+                  <li><span>2022-current</span><br />HTML, CSS, JavaScript</li>
+                  <li><span>2023-current</span><br />Visual communication</li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="education">
+              <ul>
+                  <li><span>2021-current</span><br />Masters in Computer Science</li>
+                  <li><span>2018-2021</span><br />Bachelors in Information Technology</li>
+                  <li><span>2015-2018</span><br />High School Diploma</li>
+              </ul>
+            </div>
+          </div> 
+        </div>
+ <!----------------------------------------------services---------------------------------->       
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>Web Development</h1>
+            <p>
+              I specialize in creating responsive, user-friendly websites using HTML,
+             CSS, and JavaScript. I can help you design and develop a website
+            from scratch,     
+            </p>
+          <button class="devilish-button"><a href="#">Learn More</a></button>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h1>UI/UX Development</h1>
+            <p>
+              I specialize in creating responsive, user-friendly websites using HTML,
+             CSS, and JavaScript. I can help you design and develop a website
+            from scratch,     
+            </p>
+             <button class="devilish-button">
+             <a href="#">Learn More</a></button>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h1>APP Development</h1>
+            <p>
+              I specialize in creating responsive, user-friendly websites using HTML,
+             CSS, and JavaScript. I can help you design and develop a website
+            from scratch,     
+            </p>
+          <button class="devilish-button" ><a href="#">Learn More</a></button>
+          </div>
+        </div>
+
+    </div>
+   </div>
+   <!--------------------------------------------------=-portfolio-=--------------------------->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" >
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              A social media app designed to help users connect with others, share
+              updates, and find new interests.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" >
+          <div class="layer">
+            <h3>Music App</h3>
+           <p>
+             A music app designed to help users discover new songs, artists, and albums. 
+           
+           </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" >
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              An online shopping app designed to help users browse, buy, and review products. 
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+      <button class="devilish-button"><a href="#" class="btn">See More</a></button></div>
+    </div>
+  </div>
+<!-----------------------------contact------------------------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+         <p><i class="fa-solid fa-phone"></i>01-----------------</p>
+         <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+         </div>
+         <a href="images/my-cv.pdf" download  class="devilish-button btn2">Download CV </a>
+      </div>
+      <div class="contact-right">
+        <form >
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+          <button class="devilish-button" >Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copy-right">
+    <p>Copyright © Kevin. Made With <i class="fa-solid fa-heart"></i> Brotha The Rookie</p>
+  
+  </div>
+</div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
